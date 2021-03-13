@@ -12,7 +12,6 @@ import Repository.jdbc.JdbcBaseEnfantRepository;
 import Repository.jdbc.JdbcBaseRendezVousRepository;
 
 import java.util.Scanner;
-
 public class ConsoleDisplayService implements DisplayService {
     private String rep;
     private Scanner scanner = new Scanner(System.in) ;
